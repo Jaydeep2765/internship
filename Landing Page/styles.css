@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+Display:wght@500&display=swap');
+
+*{scroll-behavior:  smooth;
+ margin: 0;
+ padding: 0;
+}
+
+body { 
+background: url('Gymm.jpg') center center/cover no-repeat ;
+height: 120vh;
+width: 100vh;
+font-family:sans-serif ; }
+
+.container {height :113vh; }
+
+
+.header-section .logo{background:url('')  center center  no-repeat ;
+    color: aliceblue;
+    height: 152px;
+    width: 157px;
+       display: inline-block  ;
+    position:relative;
+    left:"0";
+    top: -36px;}
+    
+
+
+.header-section ul{background-color: black;
+    display:flex;
+    border:3px solid black;
+    font-family: sans-serif;
+    align-items: center ;
+    gap :55px;
+    height: 52px;
+    width: 500px;
+    margin: -120px 224px 9px 276px;
+    border-radius: 10px;
+    border:.5px solid rgb(255,255,255)
+;   letter-spacing: 0.5px;
+}
+
+.header-section ul li {
+    list-style: none;
+
+
+}
+
+.header-section ul li a {
+    text-decoration: none;
+    font: size 18px;
+    color:rgb(255,255,255);
+}
+
+.header-section ul li a:hover{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.content-section{
+    width:600px;
+    height:217px;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.5) ;
+    margin:159px -20px 80px 93px; ;
+}
+
+
+.content-section .h-primary{
+    margin: 14px;
+    margin-bottom:-1px;
+    font-size: 40px;
+}
+
+.h3-primary{margin-left: 15px;
+}
+
+.para{margin:21px;}
+
+#join-us-btn {
+     position:relative;
+     border: 1 px solid white;
+     height: 65 px;  
+     width: 202 px ;
+     font-family: sans-serif;
+     padding: 20px;
+     color:rgb(235, 222, 222);
+     background-color:black;
+     letter-spacing: 1px;
+     font-size: 19ox; 
+     cursor:pointer;
+     display:inline-block;
+     transition:0.5s;
+     margin-left:19px;
+}
+
+
+#arrow-sign{
+    overflow: hidden;
+    width: 0px;
+
+}
+
+ #join-us-btn-hover{
+    letter-spacing: 0.25px;
+ }
+
+
+ 
+footer{
+    font-size:15px;
+    position:absolute;
+    bottom:"-75";
+    width: "100%";
+    height :"90px";
+    background-color:"black";
+}
+      
+    
+footer ul{display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 92px;
+    margin: 14px 0 15px 0; 
+}
+
+footer ul li{
+    color: rgb(155, 153, 153);
+
+}
+
+
+footer ul li a{
+ color: rgb(99, 96, 96);
+ ;
+ text-decoration-line: none
+;
+text-shadow: 50px;
+
+}
+
+footer #copy-right{
+
+  color:rgb(20, 20, 20);
+  text-align-last: left ;
+}
